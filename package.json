@@ -1,0 +1,29 @@
+{
+  "name": "solflare_ui_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test_local": "wdio run wdio.conf.js",
+    "test_local_headless": "wdio run wdio.conf.js --headless",
+    "test_local_firefox": "wdio run wdio.conf.js --browser firefox",
+    "report": "allure generate --clean allure-results && allure open"
+  },
+  "keywords": [],
+  "author": "Veljko Jovančić",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.4.1",
+    "@wdio/local-runner": "^9.4.1",
+    "@wdio/mocha-framework": "^9.2.8",
+    "cross-env": "^7.0.3",
+    "mochawesome": "^7.1.3",
+    "@wdio/allure-reporter": "^8.38.0",
+    "allure-commandline": "^2.29.0",
+    "@wdio/spec-reporter": "^8.38.0",
+    "winston": "^3.17.0"
+
+  }
+
+}
+
