@@ -1,4 +1,4 @@
-# UI Automtion testing for Solflare using Axios
+# UI Automation testing for Solflare using WebdriverIO
 
 ## How to use?
 
